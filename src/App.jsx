@@ -1,11 +1,11 @@
-import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
-import BottemBar from "./components/Bottembar";
+import NavBar from "./components/NavBar.jsx";
+import Home from "./pages/Home.jsx";
+import BottemBar from "./components/BottemBar.jsx";
 import { Route, Routes } from "react-router-dom";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
-import Achivements from "./pages/Achivements";
+import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
+import Projects from "./pages/Projects.jsx";
+import Achivements from "./pages/Achivements.jsx";
 
 export default function App() {
   return (
