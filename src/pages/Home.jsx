@@ -3,6 +3,7 @@ import { Button } from "../components/ui/button";
 import { useState } from "react";
 import { useMemo } from "react";
 import ProfilePic from "../assets/ProfilePic.webp";
+import ResumePDF from "../assets/PuneethKrishna_S_Rakunde_Resume.pdf";
 
 import {
   Tooltip,
@@ -59,7 +60,7 @@ export default function Home() {
   const navigate= useNavigate();
 
   const handleDownload = () => {
-    const pdfUrl = "src/assets/PuneethKrishna_S_Rakunde_Resume.pdf";
+    const pdfUrl = ResumePDF;
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "PuneethKrishna_S_Rakunde_Resume.pdf";
