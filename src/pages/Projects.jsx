@@ -57,12 +57,12 @@ const projects = [
 
       <div className="w-full  border border-border rounded-xl bg-background shadow-sm grid grid-cols-1 lg:grid-cols-6 overflow-hidden">
         {/* Sidebar */}
-        <div className="lg:col-span-2 border-b lg:border-b-0 lg:border-r border-border">
+        <div className="lg:col-span-2 border-b lg:border-b-0 lg:border-r border-border ">
           {projects.map((project) => (
             <button
               key={project.index}
               onClick={() => setSelected(project)}
-              className={`w-full text-left px-5 py-4 transition-all duration-300 ${
+              className={`w-full text-left px-5 py-4 transition-all duration-300 border-b-1 ${
                 selected.index === project.index
                   ? "bg-primary text-primary-foreground"
                   : "hover:bg-accent hover:text-accent-foreground"

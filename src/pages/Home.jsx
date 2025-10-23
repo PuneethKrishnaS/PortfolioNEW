@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useMemo } from "react";
 import ProfilePic from "../assets/ProfilePic.webp";
 import ResumePDF from "../assets/PuneethKrishna_S_Rakunde_Resume.pdf";
+import ResumeIMG from "../assets/resume_pick.png";
 
 import {
   Tooltip,
@@ -74,8 +75,8 @@ export default function Home() {
       <div className=" w-full flex justify-center items-center mb-8 lg:mb-0 flex-col ">
         <img
           src={ProfilePic}
-          className="max-h-[80vh] w-auto object-contain"
-          alt="Portfolio user"
+          className="max-h-[80vh] w-auto object-contain  drop-shadow-xl inset-shadow-2xl"
+          alt="puneethkrishna image"
         />
       </div>
 
@@ -109,7 +110,7 @@ export default function Home() {
                 <div className="space-y-2">
                   <img
                     className="w-full rounded"
-                    src="src/assets/resume_pick.png"
+                    src={ResumeIMG}
                     width={382}
                     height={216}
                     alt="Content image"

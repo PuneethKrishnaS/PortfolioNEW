@@ -1,6 +1,6 @@
 export function Logo() {
   return (
-    <div className="shadow-md">
+    <div>
       <svg
         width="38"
         height="34"
